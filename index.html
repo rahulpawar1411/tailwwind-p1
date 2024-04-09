@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    
+
+</head>
+<body class="selection:bg-black selection:text-white  ">
+    
+ <div id="page1"  class="main   bg-gradient-to-r from-[#d4d4d4] to-[#333232] w-full h-full flex justify-between items-center  ">
+
+     <div  class="left w-[50%] h-[40rem] text-[#333232]  flex flex-col justify-center items-center">
+
+            <h1 class="text-[50px] font-bold pb-6">Log In with</h1>
+    
+           <div class="flex  gap-6 mb-4">
+            <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%] overflow-hidden ">
+                <img class=" items-center " src="https://freelogopng.com/images/all_img/1657955079google-icon-png.png" alt="" srcset="">
+             </div>
+    
+             <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%] overflow-hidden ">
+                <img class=" items-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4UJP8NHuKjQ34J-SqrUsOkUn4LgI4TQwFA3vAtqkvw&s" alt="" srcset="">
+             </div>
+    
+           <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%]  overflow-hidden">
+            <img class="items-center " src="https://i.pinimg.com/736x/d0/24/2f/d0242fc3351571f8243a1db4ac0370c6.jpg" alt="" srcset="">
+           </div>
+           
+        </div>
+    
+        <h1 class="mb-4 font-semibold ">or use your Email</h1>
+    
+           <input class="name mb-8 w-[280px] h-[45px]  items-center rounded-[20px] border border-solid border-black placeholder:text-center  px-12  outline-none" type="email" name="" id="name" placeholder="Enter your Email id">
+
+            <input id="password"  class=" mb-5 w-[280px] h-[45px] items-center rounded-[20px] placeholder:text-center  px-12  outline-none border border-solid border-black" type="password" placeholder="Password">
+    
+            <div class="flex justify-center items-center flex-col">
+                <h2 class=" mb-9 text-[15px] cursor-pointer hover:text-blue-700 font-bold ">forgeting Password?</h2>
+                <button id="login" class= "w-[180px] h-[40px] active:text-red-600  rounded-[20px] font-bold border  hover:border-black shadow  shadow-black items-center">Log In</button>
+            </div>
+        </div>
+
+    <!-- /----------------right side-----------------/ -->
+
+        <div id="page2" class="right w-[50%] h-[40rem] text-[#ecebeb] flex justify-center items-center flex-col">
+            <h1 class="text-[45px] font-bold mb-4">Hi There!</h1>
+            <p class=" text-[18px] w-[280px] justify-center items-center text-center mb-4">if you don't hava an account, you can Sign Up here!</p>
+    
+            <button id="signup1" class="singbtn w-[180px] h-[40px] active:text-red-600 rounded-[20px] font-bold border  hover:border-black shadow  shadow-black items-center ">SING UP</button>
+    
+        </div>
+
+
+        <!-- /---------------SignUp side----------------/ -->
+
+    </div>
+
+    <div id="page3" class="signup  bg-gradient-to-r from-[#d4d4d4] to-[#333232]  w-full h-[40rem] bg-yellow-50 flex justify-center items-center flex-col ">
+
+        <h1 class="text-[30px] font-bold mb-8 ">Create your Account</h1>
+        
+        <input class="name mb-8 w-[280px] h-[45px] items-center rounded-[20px] border border-solid  px-12  border-black placeholder:text-center outline-none " type="name" name="" id="fullname" placeholder="full Name">
+        
+        <input class="emailname mb-8 w-[280px] h-[45px] items-center rounded-[20px] border  px-12  border-solid border-black placeholder:text-center outline-none" type="email" name="email" required alt="email" id="email" placeholder="Enter your Email id">
+        
+        <input id="password1" class=" mb-8 w-[280px] h-[45px] items-center rounded-[20px] border  px-12  border-solid border-black placeholder:text-center  outline-none " type="" name="" id="create" placeholder="Create your password">
+        
+        <p class="mb-4 font-semibold ">___ Sign with us ___
+        </p>
+        
+        <div class="flex  gap-6 mb-8">
+            <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%] overflow-hidden ">
+                <img class=" items-center " src="https://freelogopng.com/images/all_img/1657955079google-icon-png.png" alt="" srcset="">
+             </div>
+        
+             <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%] overflow-hidden ">
+                <img class=" items-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4UJP8NHuKjQ34J-SqrUsOkUn4LgI4TQwFA3vAtqkvw&s" alt="" srcset="">
+             </div>
+        
+           <div class="w-[40px] h-[40px] cursor-pointer bg-orange-500 rounded-[50%]  overflow-hidden">
+            <img class="items-center " src="https://i.pinimg.com/736x/d0/24/2f/d0242fc3351571f8243a1db4ac0370c6.jpg" alt="" srcset="">
+           </div>
+           
+        </div>
+        
+        <button id="signup2" class= "w-[180px] h-[40px] active:text-red-600 rounded-[20px] font-bold border hover:border-black shadow  shadow-black items-center">Sign Up</button>
+        </div>
+          
+        
+    <script src="script.js"></script>
+</body>
+</html>
